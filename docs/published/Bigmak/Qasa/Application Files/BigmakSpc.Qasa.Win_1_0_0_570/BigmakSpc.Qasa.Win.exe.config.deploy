@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+  </configSections>
+  <connectionStrings>
+    <!--<add name="BigmakSpc.Qasa.Win.Properties.Settings.qiQtech_dbConnectionString" 
+         connectionString="Data Source=26.27.126.147\BIGMAK_INSTANCE, 1114;Initial Catalog=qasaBigmak_db;user id=sa; password=qt3chbs!;" 
+         providerName="System.Data.SqlClient"/>
+    <add name="BigmakSpc.Qasa.Win.Properties.Settings.qiQtechLog_dbConnectionString" 
+         connectionString="Data Source=26.27.126.147\BIGMAK_INSTANCE, 1114;Initial Catalog=qasaBigmakLog_db;user id=sa; password=qt3chbs!;" 
+         providerName="System.Data.SqlClient"/>
+    <add name="Hkr.Inventory.Win.Properties.Settings.inHkrLog_dbConnectionString" 
+         connectionString="Data Source=26.27.126.147\BIGMAK_INSTANCE, 1114;Initial Catalog=inHkrLog_db;user id=sa; password=qt3chbs!;" 
+         providerName="System.Data.SqlClient"/>-->
+    
+    <!--<add name="Qtech.AssetManagement.Win.Properties.Settings.amQtech_dbConnectionString" 
+         connectionString="Data Source=26.27.126.147\BIGMAK_INSTANCE, 1114;Initial Catalog=amQtech_db;user id=sa; password=qt3chbs!;" 
+         providerName="System.Data.SqlClient"/>
+    <add name="Qtech.AssetManagement.Win.Properties.Settings.amQtechLog_dbConnectionString" 
+         connectionString="Data Source=26.27.126.147\BIGMAK_INSTANCE, 1114;Initial Catalog=amQtechLog_db;user id=sa; password=qt3chbs!;" 
+         providerName="System.Data.SqlClient"/>-->
+    
+    <!--\\lcbigmakserver\QTECH SYSTEMS\BigmakQasa\System-->
+    <add name="BigmakSpc.Qasa.Win.Properties.Settings.qiQtech_dbConnectionString" 
+         connectionString="Data Source=LCBIGMAKSERVER;Initial Catalog=qasaBigmak_db;user id=sa; password=Dell.password;" 
+         providerName="System.Data.SqlClient"/>
+    <add name="BigmakSpc.Qasa.Win.Properties.Settings.qiQtechLog_dbConnectionString" 
+         connectionString="Data Source=LCBIGMAKSERVER;Initial Catalog=qasaBigmakLog_db;user id=sa; password=Dell.password;" 
+         providerName="System.Data.SqlClient"/>
+    <add name="Hkr.Inventory.Win.Properties.Settings.inHkrLog_dbConnectionString" 
+         connectionString="Data Source=LCBIGMAKSERVER;Initial Catalog=inHkrLog_db;user id=sa; password=Dell.password;" 
+         providerName="System.Data.SqlClient"/>
+    
+    <add name="Qtech.AssetManagement.Win.Properties.Settings.amQtech_dbConnectionString" 
+         connectionString="Data Source=LCBIGMAKSERVER;Initial Catalog=amQtech_db;user id=sa; password=Dell.password;" 
+         providerName="System.Data.SqlClient"/>
+    <add name="Qtech.AssetManagement.Win.Properties.Settings.amQtechLog_dbConnectionString" 
+         connectionString="Data Source=LCBIGMAKSERVER;Initial Catalog=amQtechLog_db;user id=sa; password=Dell.password;" 
+         providerName="System.Data.SqlClient"/>
+    
+    
+    <!--\\192.168.2.199\QTECH SYSTEMS\IPBaseSystem\qasa-->
+    <!--<add name="BigmakSpc.Qasa.Win.Properties.Settings.qiQtech_dbConnectionString" 
+         connectionString="Data Source=192.168.2.199;Initial Catalog=qasaBigmak_db;user id=sa; password=Dell.password;" 
+         providerName="System.Data.SqlClient"/>
+    <add name="BigmakSpc.Qasa.Win.Properties.Settings.qiQtechLog_dbConnectionString" 
+         connectionString="Data Source=192.168.2.199;Initial Catalog=qasaBigmakLog_db;user id=sa; password=Dell.password;" 
+         providerName="System.Data.SqlClient"/>
+    <add name="Hkr.Inventory.Win.Properties.Settings.inHkrLog_dbConnectionString" 
+         connectionString="Data Source=192.168.2.199;Initial Catalog=inHkrLog_db;user id=sa; 
+         password=Dell.password;" providerName="System.Data.SqlClient"/>
+
+    <add name="Qtech.AssetManagement.Win.Properties.Settings.amQtech_dbConnectionString"
+         connectionString="Data Source=192.168.2.199;Initial Catalog=amQtech_db;user id=sa; password=Dell.password;"
+         providerName="System.Data.SqlClient"/>
+    <add name="Qtech.AssetManagement.Win.Properties.Settings.amQtechLog_dbConnectionString"
+         connectionString="Data Source=192.168.2.199;Initial Catalog=amQtechLog_db;user id=sa; password=Dell.password;"
+         providerName="System.Data.SqlClient"/>-->
+    
+  </connectionStrings>
+  <appSettings>
+    <add key="BigmakSpc.Qasa.Connection" value="BigmakSpc.Qasa.Win.Properties.Settings.qiQtech_dbConnectionString"/>
+    <add key="BigmakSpc.Qasa.LogConnection" value="BigmakSpc.Qasa.Win.Properties.Settings.qiQtechLog_dbConnectionString"/>
+    <add key="BigmakSpc.Qasa.DBProvider" value="System.Data.SqlClient"/>
+    <add key="ClientSettingsProvider.ServiceUri" value=""/>
+    
+    <add key="Hkr.Inventory.Connection" value="BigmakSpc.Qasa.Win.Properties.Settings.qiQtech_dbConnectionString"/>
+    <add key="Hkr.Inventory.LogConnection" value="Hkr.Inventory.Win.Properties.Settings.inHkrLog_dbConnectionString"/>
+    <add key="Hkr.Inventory.DBProvider" value="System.Data.SqlClient"/>
+    
+    <add key="Qtech.AssetManagement.Connection" value="Qtech.AssetManagement.Win.Properties.Settings.amQtech_dbConnectionString"/>
+    <add key="Qtech.AssetManagement.ConnectionLog" value="Qtech.AssetManagement.Win.Properties.Settings.amQtechLog_dbConnectionString"/>
+    <add key="Qtech.AssetManagement.DBProvider" value="System.Data.SqlClient"/>
+    
+  </appSettings>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri=""/>
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400"/>
+      </providers>
+    </roleManager>
+  </system.web>
+<startup useLegacyV2RuntimeActivationPolicy="true">
+  <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
+  <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2"/>
+</startup>
+  
+</configuration>

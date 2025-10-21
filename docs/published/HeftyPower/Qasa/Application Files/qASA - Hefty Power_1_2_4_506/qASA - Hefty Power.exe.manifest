@@ -958,7 +958,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>I2SgNWx/BLON++L3v7YaghLDCo5WDxDJ7xhFtdT9hTY=</dsig:DigestValue>
+        <dsig:DigestValue>vTHCxMQGKSx6bsU6OuvooNoeuZistEq/6Ug98qgYRlc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1011,14 +1011,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qtech.ProjectManagement.DraftProject.dll" size="627712">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qtech.ProjectManagement.DraftProject.dll" size="645632">
       <assemblyIdentity name="Qtech.ProjectManagement.DraftProject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Y5+mwvSmhqSy0dWFVBtqh+9OBKP/9QdD2Dx/nKgsyjM=</dsig:DigestValue>
+        <dsig:DigestValue>I2yUZfjg8K5yO+6g+oXk2h0L3EBBhbHx6DutA5eKFMs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1047,14 +1047,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qtech.Qasa.AccountCategory.dll" size="26112">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qtech.Qasa.AccountCategory.dll" size="26624">
       <assemblyIdentity name="Qtech.Qasa.AccountCategory" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MxwRdaidLKUvZCZ/6xj5r4XlbXk8TLIvBwlf3e9QoQc=</dsig:DigestValue>
+        <dsig:DigestValue>vCEXDM1Sl3O0L6TSxpMA97VVqdPug455lt5ecyVwMP4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1335,14 +1335,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qtech.Qasa.RevolvingFund.dll" size="893952">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Qtech.Qasa.RevolvingFund.dll" size="894464">
       <assemblyIdentity name="Qtech.Qasa.RevolvingFund" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+Jl3kdGfla0uaeQDU9sn2oTh6XXfRnrFAz9OHrGOI9A=</dsig:DigestValue>
+        <dsig:DigestValue>yHJdklEQalteCsTr5Is4eAcRyaCIK3O+eP+CspcbqlA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

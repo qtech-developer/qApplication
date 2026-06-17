@@ -14,14 +14,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\BigmakSpc.Qasa.Win_1_0_0_604\BigmakSpc.Qasa.Win.exe.manifest" size="86338">
+    <dependentAssembly dependencyType="install" codebase="Application Files\BigmakSpc.Qasa.Win_1_0_0_604\BigmakSpc.Qasa.Win.exe.manifest" size="86339">
       <assemblyIdentity name="BigmakSpc.Qasa.Win.exe" version="1.0.0.604" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>XNi1GqGBOsSWP8OqwzDaiQsaSWhCn7RDxzOyuconiOo=</dsig:DigestValue>
+        <dsig:DigestValue>fNmw7HBY8q391oLvaZGZGEJ0yW7BxViB9Y2YwqMAlK0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="Qtech.Qasa.Win.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <!--SERVERPC - Beta-->
+  <connectionStrings>
+    <!--<add name="Qtech.Qasa.Win.Properties.Settings.qiQtech_dbConnectionString"
+        connectionString="ZPoy3DzxDXeYRzi0j5E9qhU9TEDcsaw9VPqwcNcNfIYkoGd79wwwowYJLNcyQmAn3DXkKEhTUXF4UAQi4wWw8qsN2q2edG+gPo/MjiC+poNffFzCxrW8eqJq6VrfvPPKodi8FSorqGuw0yxkVrEFYFveXdGAVuQixJ7nxT8rOXs="
+        providerName="System.Data.SqlClient" />
+    <add name="Qtech.Qasa.Win.Properties.Settings.qiQtechLog_dbConnectionString"
+        connectionString="7qyXWvH18P8QWQnd3VARfHXXQr03b4kVPWE3meWnYQo71yBf38DUCgb1Iw4PBPAiZaHnJglnd4ra879dWvBacBHH8T4E1wmwRokthUUc8CIYj2s9b4aBhNpFuco/h/xlhDc9SRaiVIrowJIaQiyVziDFzSTULNvCVIw5kce5+Fw="
+        providerName="System.Data.SqlClient" />
+    <add name="Hefty.Psi.Connection" 
+        connectionString="ebinT5JGdWIMOhXtZbr5NbqOzXYohqXqDBPrS7G9hFbgTULsDVR2zssiJj4WCnXhBgmzZYb6w4OAAqFtr7auqwJan5nzElXpwGN8VbhRKnjG8pCMQPESgyxXufVCT2wKWYqc8zfRWS7ZEhJkrJyY8AnYDkarVM96fiPbOg1w3cc="
+        providerName="System.Data.SqlClient" />
+    <add name="Hefty.Psi.ConnectionLog"
+        connectionString="EkJ12MffiVRu8X1+1JkKvZoXQoX24+Yv5+6yZJObGDvJew8ix9jIVcOc6l/VaVsg1DjFFV/US7hw7ET8ZPrgShnW0+eRidj//WJ5VnvShQ8+lcSQMoysmCjdxuz8eHzqNIGmEUZ+HbVO5EP47xqe29L98oSxYbjoJuUZvnikKOQ="
+        providerName="System.Data.SqlClient" />
+    <add name="Qtech.AssetManagement.Win.Properties.Settings.faHefty_dbConnectionString"
+        connectionString="oIhFoAfkJl/eizcc+ybVl7bHLJKpvOU2kBFnM6yr4WNdz5F39sbmJj29x7jE4/4BFOFz4Rk+fhcDfpiMQgXNVYGTpA7E0BiWmXxiTRmI99ITPmKZUQIzGrQrQl/b4yrC3wuJEUaQNg9XcdJHhkXyfonS2RUCsG7kots920kCCrI="
+        providerName="System.Data.SqlClient" />
+    <add name="Qtech.AssetManagement.Win.Properties.Settings.faHeftyLog_dbConnectionString"
+        connectionString="KC7k5khQRD6x5HOHF5vzstr5SjGr8nza0ICgb6quAIB7/+EKniNNz11O+fBuavtUi1iuJZeD899xheQbZKm7Ske27EgcsYsKxQ4o8cs3WfDYK4z2KfAkJsrAz78aCYiVTw21CGl53QfKBwVgM9jX/1HXQFQd7utkpcw1fJmFWj0="
+        providerName="System.Data.SqlClient" />
+    <add name="Qtech.ProjectManagement.Win.Properties.Settings.qiQtech_dbConnectionString"
+        connectionString="hEcQwxFvGeNE1aa+WiRewm92MOTTKZqRGph36ucv6yNrwgu///m5GCNvCai2Aln83b3QK1HXOwcI/jqF7MDMy4KaqxR0LLxHAw/kOSyxidEq1xzi65CBW6Mbei3CaBEQ505QY+rowElIN1WHHZeXl+YcKBl5q2Knx/JifkX9K3A="
+        providerName="System.Data.SqlClient" />
+    <add name="Qtech.ProjectManagement.Win.Properties.Settings.qiQtechLog_dbConnectionString"
+        connectionString="ObDkqCL+qZKok0NBd2FOlnFFc8nEv+QhPIGDnLPLpfHzm2YrBpfZZKNO7e4JGhBYSEgtKTPOJfqNuKuQ5xlowrvtxKsXxmY5M0SwJZ9XJvONPeAbZhxMynsRs+eM98wdVEFe79775Ll5yRFjX5V2jBstzeE7vNA+V6IaiLixzzo="
+        providerName="System.Data.SqlClient" />-->
+    <!--Hefty Live Server-->
+    <add name="Qtech.Qasa.Win.Properties.Settings.qiQtech_dbConnectionString" connectionString="DnQEbx4IiCQiz2M2QZv163sFBUEKo/wxSFG3CbFmzmvuX3hq5lNWySq8lI/xY/buqMOTlzU3a/weAtzAttAdfncEUoxF+WQRPOBFsiiU8DMdh/xJgdvlhCwQpHP3iqfPvCkrdxqEnxL3TSSDJOaMdw==" providerName="System.Data.SqlClient" />
+    <add name="Qtech.Qasa.Win.Properties.Settings.qiQtechLog_dbConnectionString" connectionString="/WXKS0a8tKb2Aupjhco09lSDTdka6uuLCSlXiwIlebGU21udej+9ckO8LnA014itdjm5SWbou7ZNb2AkP4gNXPGtO/k0xYm36sK+49SCTz+UFqKAqD1t3F2BR8XKJ4AaTr6DTraSw+vfPS9Z3zjCEQ==" providerName="System.Data.SqlClient" />
+    <add name="Hefty.Psi.Connection" connectionString="f7JK7nFQqV6AnLZ64VWB40N6fkcV3rTb0c7WQDXOwF+jqUxKcZupfRZI3Q6X+JSEAb9BFwmXREgOG1CZtgSCD4R9K3JMvY0Wtyk2/IyfaL8zmsUUtDsVsSj1lRQr6gJ975+SfJkvy0WNmkVvG76mPw==" providerName="System.Data.SqlClient" />
+    <add name="Hefty.Psi.ConnectionLog" connectionString="3cvvBoCU3jTxOWgG6NSA1bYoj4X+pmOERwPwdLdbypR3evLV7FwIT5QiOTz7BEFGWPBov7zMIMXFsCfAwb5heXFOpnUsxoTB5mQcdm5JNBaEWrlgczh28N/GXZohRk/nZ475l1BHRW13ffFliBkFEA==" providerName="System.Data.SqlClient" />
+    <add name="Qtech.AssetManagement.Win.Properties.Settings.faHefty_dbConnectionString" connectionString="U6ruJ0T7FPM9kv2ogAmAFcmW20HJwiVm9G7iGLSC3W4EBsRMFFMtgQPd3hJwoavZYRiyETNp0T9K7McZWgYW+lR4mZjX2ms2wJG1jW77Dh17SRs5MWrBOpPX6VqIt7DxhfkvftfDZ+6p1PqSnXmhhw==" providerName="System.Data.SqlClient" />
+    <add name="Qtech.AssetManagement.Win.Properties.Settings.faHeftyLog_dbConnectionString" connectionString="jKFDx+/t5JUGsDql1P9xxQGMjwIE2CnCImFmXbASa2ZGZWrNjmWBW4pY0wPBo094CoCMXabCU+bMFBJDlbMRqYHcGNbJKfZf7h0Ub2+WIc88CK3HF88K136mB/pheaGgEkGOMDPbXO0nqXjpSP0B3A==" providerName="System.Data.SqlClient" />
+    <add name="Qtech.ProjectManagement.Win.Properties.Settings.qiQtech_dbConnectionString" connectionString="IfU2SAgr97klONyhCkQSkvLu+LmDScVH23sw9RbPfe+OaXA7NrL/Kh3/0yEV+Odg3lAOUQ165NlQ4JH3ngtEgvL8yoM1rBYbDF6rqtwLijj4m1src7PypUnJAF++tsBatEl9UyDGLrFTJdO2gk/XMQ==" providerName="System.Data.SqlClient" />
+    <add name="Qtech.ProjectManagement.Win.Properties.Settings.qiQtechLog_dbConnectionString" connectionString="RsNlx80CzORJv8m3BNLCFzlA6v1xoZNvQbZz5qapA5XUf8d41P1ZpXkrrsnyiHXD7QDR8ipDozRkqRknt25Gz1BOzshmq6DF9dwRM62FPm5aCHkusqEB4sX5ToX6LkJ0s0GfCqv+LzU0RDgh1Ebhgw==" providerName="System.Data.SqlClient" />
+  </connectionStrings>
+  <appSettings>
+    <add key="Qtech.Qasa.Connection" value="Qtech.Qasa.Win.Properties.Settings.qiQtech_dbConnectionString" />
+    <add key="Qtech.Qasa.LogConnection" value="Qtech.Qasa.Win.Properties.Settings.qiQtechLog_dbConnectionString" />
+    <add key="Qtech.Qasa.DBProvider" value="System.Data.SqlClient" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+    <add key="Hefty.Psi.Connection" value="Hefty.Psi.Connection" />
+    <add key="Hefty.Psi.ConnectionLog" value="Hefty.Psi.ConnectionLog" />
+    <add key="Hefty.Psi.DBProvider" value="System.Data.SqlClient" />
+    <add key="Qtech.AssetManagement.Connection" value="Qtech.AssetManagement.Win.Properties.Settings.faHefty_dbConnectionString" />
+    <add key="Qtech.AssetManagement.ConnectionLog" value="Qtech.AssetManagement.Win.Properties.Settings.faHeftyLog_dbConnectionString" />
+    <add key="Qtech.AssetManagement.DBProvider" value="System.Data.SqlClient" />
+    <add key="Qtech.ProjectManagement.Connection" value="Qtech.ProjectManagement.Win.Properties.Settings.qiQtech_dbConnectionString" />
+    <add key="Qtech.ProjectManagement.LogConnection" value="Qtech.ProjectManagement.Win.Properties.Settings.qiQtechLog_dbConnectionString" />
+    <add key="Qtech.ProjectManagement.DBProvider" value="System.Data.SqlClient" />
+    <!--<add key="Qtech.ChatBox.Connection" value="Qtech.ChatBox.Connection" />
+    <add key="Qtech.ChatBox.DBProvider" value="System.Data.SqlClient" />
+
+    <add key="Qtech.ChatBox.ConnectionLog" value="Qtech.ChatBox.ConnectionLog" />
+    <add key="Qtech.ChatBox.DBProvider" value="System.Data.SqlClient" />-->
+  </appSettings>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0" />
+  </startup>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualBasic" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Xml.Linq" publicKeyToken="b77a5c561934e089" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="4.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System" publicKeyToken="b77a5c561934e089" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="4.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Core" publicKeyToken="b77a5c561934e089" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="4.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Drawing" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="4.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Windows.Forms" publicKeyToken="b77a5c561934e089" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="4.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Design" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="4.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Data" publicKeyToken="b77a5c561934e089" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="4.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Xml" publicKeyToken="b77a5c561934e089" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="4.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Runtime.Serialization.Formatters.Soap" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="4.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="4.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Configuration" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="4.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.0.0" newVersion="13.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" />
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" />
+      </providers>
+    </roleManager>
+  </system.web>
+  <userSettings>
+    <Qtech.Qasa.Win.Properties.Settings>
+      <setting name="isShowDialog" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="notificationBell" serializeAs="String">
+        <value>True</value>
+      </setting>
+    </Qtech.Qasa.Win.Properties.Settings>
+  </userSettings>
+</configuration>
